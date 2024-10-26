@@ -24,21 +24,23 @@ xy-web-service服务设置模块.
 ## 安装
 
 ```bash
+# bash
 pip install xy_request_handler_base
 ```
 
 ## 使用
 
 ```bash
-xy_request_handler_base -c project -n xy_request_handler_base_demo
+# bash
+xy_web_server -c project -n xy_request_handler_base_demo
 # 创建项目 [ xy_request_handler_base_demo ] 成功!!!
 # 项目路径 ==>>> /mnt/bs-media/Workspace/project/opensource/xy-web-service/xy_request_handler_base/test/xy_request_handler_base_demo
-
 cd xy_request_handler_base_demo
-xy_request_handler_base
-# >>>>>>>>>>>> xy_request_handler_base - v1.0.1 <<<<<<<<<<<<<
-#
+xy_web_server
+# >>>>>>>>>>>> xy_request_handler_base_demo - v1.0.1 <<<<<<<<<<<<<
+
 # Hello World!!!
+
 ```
 
 ## 许可证
