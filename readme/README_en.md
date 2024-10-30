@@ -45,6 +45,26 @@ class Demo(Base):
 
 ```
 
+Run [Sample Project](../samples/xy_web_server_demo)
+
+> For detailed usage of the sample project, please go to the following repository <b style="color: blue">xy_web_server.git</b>
+> - <a href="https://github.com/xy-web-service/xy_web_server.git" target="_blank">Github</a>  
+> - <a href="https://gitee.com/xy-web-service/xy_web_server.git" target="_blank">Gitee</a>
+
+```bash
+# bash
+
+# The current directory is the directory where the git local repository of xy_request_handler_base is located
+# Switch to the project directory
+cd ./samples/xy_web_server_demo
+
+# Start the Tornado service of the sample project
+xy_web_server -w tornado start
+
+# The default Tornado service URL is: http://127.0.0.1:8400
+# Open the browser and visit http://127.0.0.1:8400/demo for verification
+```
+
 
 ## License
 xy_request_handler_base is licensed under the <Mulan Permissive Software License，Version 2>. See the [LICENSE](../LICENSE) file for more info.

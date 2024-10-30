@@ -45,6 +45,26 @@ class Demo(Base):
 
 ```
 
+運作 [範例工程](../samples/xy_web_server_demo)
+
+> 範例工程具體使用方式請移步 <b style="color: blue">xy_web_server.git</b> 以下倉庫
+> - <a href="https://github.com/xy-web-service/xy_web_server.git" target="_blank">Github位址</a>  
+> - <a href="https://gitee.com/xy-web-service/xy_web_server.git" target="_blank">Gitee位址</a>
+
+```bash
+# bash
+
+# 目前目錄為xy_request_handler_base的git本地倉庫所在目錄
+# 切換到工程目錄
+cd ./samples/xy_web_server_demo
+
+# 啟動範例工程的Tornado服務
+xy_web_server -w tornado start
+
+# 預設啟動的Tornado服務url位址是: http://127.0.0.1:8400
+# 瀏覽器開啟造訪 http://127.0.0.1:8400/demo 進行驗證
+```
+
 ## 許可證
 xy_request_handler_base 根據 <木蘭寬鬆許可證, 第2版> 獲得許可。有關詳細信息，請參閱 [LICENSE](../LICENSE) 文件。
 
