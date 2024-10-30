@@ -15,7 +15,7 @@
 
 ## 说明
 
-xy-web-service服务设置模块.
+基于Tornado的RequestHandler基础类，封装了常用功能，方便快速开发,主要重置django模型和请求结束时候关闭数据库连接.
 
 ## 源码仓库
 
@@ -31,17 +31,19 @@ pip install xy_request_handler_base
 
 ## 使用
 
-```bash
-# bash
-xy_request_handler_base -c project -n xy_request_handler_base_demo
-# 创建项目 [ xy_request_handler_base_demo ] 成功!!!
-# 项目路径 ==>>> /mnt/bs-media/Workspace/project/opensource/xy-web-service/xy_request_handler_base/test/xy_request_handler_base_demo
+> 详情请查看 [Demoes.py](../samples/xy_web_server_demo/source/Runner/RequestHandlerDemo/Demoes.py)
 
-cd xy_request_handler_base_demo
-xy_request_handler_base
-# >>>>>>>>>>>> xy_request_handler_base - v1.0.1 <<<<<<<<<<<<<
-#
-# Hello World!!!
+```python
+# Demoes.py
+
+from xy_request_handler_base.Base import Base
+
+
+class Demo(Base):
+
+    def get(self):
+        self.write("Hello, xy_request_handler_base !")
+
 ```
 
 ## 许可证

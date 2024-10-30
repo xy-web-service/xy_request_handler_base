@@ -14,7 +14,7 @@
 
 ## Description
 
-xy-web-service Service settings module.
+The RequestHandler base class based on Tornado encapsulates common functions for rapid development. It mainly resets the Django model and closes the database connection when the request ends.
 
 ## Source Code Repositories
 
@@ -30,18 +30,21 @@ pip install xy_request_handler_base
 
 ## How to use
 
-```bash
-# bash
-xy_request_handler_base -c project -n xy_request_handler_base_demo
-# 创建项目 [ xy_request_handler_base_demo ] 成功!!!
-# 项目路径 ==>>> /mnt/bs-media/Workspace/project/opensource/xy-web-service/xy_request_handler_base/test/xy_request_handler_base_demo
+> For details, please see [Demoes.py](../samples/xy_web_server_demo/source/Runner/RequestHandlerDemo/Demoes.py)
 
-cd xy_request_handler_base_demo
-xy_request_handler_base
-# >>>>>>>>>>>> xy_request_handler_base - v1.0.1 <<<<<<<<<<<<<
-#
-# Hello World!!!
+```python
+# Demoes.py
+
+from xy_request_handler_base.Base import Base
+
+
+class Demo(Base):
+
+    def get(self):
+        self.write("Hello, xy_request_handler_base !")
+
 ```
+
 
 ## License
 xy_request_handler_base is licensed under the <Mulan Permissive Software License，Version 2>. See the [LICENSE](../LICENSE) file for more info.
