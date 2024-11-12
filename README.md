@@ -8,9 +8,8 @@
 -->
 # xy_request_handler_base
 
-- [简体中文](./README.md)
-- [繁體中文](readme/README.zh-hant.md)
-- [English](readme/README.en.md)
+| [简体中文](./README.md)         | [繁體中文](readme/README.zh-hant.md)        |                      [English](readme/README.en.md)          |
+| ----------- | -------------|---------------------------------------|
 
 ## 说明
 
@@ -18,9 +17,8 @@
 
 ## 源码仓库
 
-- <a href="https://github.com/xy-web-service/xy_request_handler_base.git" target="_blank">Github地址</a>  
-- <a href="https://gitee.com/xy-opensource/xy_request_handler_base.git" target="_blank">Gitee地址</a>  
-- <a href="https://gitcode.com/xy-opensource/xy_request_handler_base.git" target="_blank">GitCode地址</a>  
+| [Github](https://github.com/xy-web-service/xy_request_handler_base.git)         | [Gitee](https://gitee.com/xy-opensource/xy_request_handler_base.git)        |                      [GitCode](https://gitcode.com/xy-opensource/xy_request_handler_base.git)          |
+| ----------- | -------------|---------------------------------------|
 
 ## 安装
 
@@ -47,9 +45,9 @@ class Demo(Base):
 
 运行 [样例工程](./samples/xy_web_server_demo)
 > 样例工程具体使用方式请移步 <b style="color: blue">xy_web_server.git</b> 下列仓库
-> - <a href="https://github.com/xy-web-service/xy_web_server.git" target="_blank">Github地址</a>  
-> - <a href="https://gitee.com/xy-opensource/xy_web_server.git" target="_blank">Gitee地址</a>  
-> - <a href="https://gitcode.com/xy-opensource/xy_web_server.git" target="_blank">GitCode地址</a>  
+
+| [Github](https://github.com/xy-web-service/xy_web_server.git)         | [Gitee](https://gitee.com/xy-opensource/xy_web_server.git)        |                      [GitCode](https://gitcode.com/xy-opensource/xy_web_server.git)          |
+| ----------- | -------------|---------------------------------------|
 
 ```bash
 # bash
